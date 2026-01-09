@@ -1,62 +1,98 @@
-# Aura Landing Page
+Aura Landing Page - SkillCraft Technology
+A modern, responsive landing page showcasing cutting-edge web development skills with smooth animations, glassmorphism effects, and premium design.
 
-## Project info
+🚀 Features
+Modern Design: Beautiful glassmorphism UI with gradient effects
+Fully Responsive: Optimized for all devices (mobile, tablet, desktop)
+Dark/Light Mode: Theme toggle with smooth transitions
+Smooth Animations: Enhanced user experience with fluid animations
+SEO Optimized: Proper meta tags and semantic HTML
+Type Safe: Built with TypeScript for robust code
+Fast Performance: Powered by Vite for lightning-fast development
+🛠️ Tech Stack
+Framework: React 18 with TypeScript
+Build Tool: Vite
+Styling: Tailwind CSS
+UI Components: shadcn/ui + Radix UI
+Icons: Lucide React
+Animations: CSS transitions and transforms
+📦 Installation
+Prerequisites
+Node.js 18+ and npm installed
+Git installed
+Setup
+Clone the repository
 
-This is a modern, responsive landing page built with React and TypeScript.
+git clone https://github.com/YOUR_USERNAME/aura-landing-page.git
+cd aura-landing-page
+Install dependencies
 
-## How can I edit this code?
+npm install
+Start development server
 
-**Use your preferred IDE**
-
-Clone this repo and push changes using your preferred development environment.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
-```
+Open in browser
 
-**Edit a file directly in GitHub**
+Navigate to http://localhost:5173/
+📜 Available Scripts
+npm run dev - Start development server with hot reload
+npm run build - Build for production
+npm run preview - Preview production build locally
+npm run lint - Run ESLint to check code quality
+📁 Project Structure
+aura-landing-page/
+├── public/              # Static assets
+├── src/
+│   ├── components/      # React components
+│   │   ├── ui/         # shadcn/ui components
+│   │   ├── Navbar.tsx  # Navigation component
+│   │   ├── HeroSection.tsx
+│   │   ├── FeaturesSection.tsx
+│   │   ├── AboutSection.tsx
+│   │   ├── CTASection.tsx
+│   │   └── Footer.tsx
+│   ├── App.tsx          # Main app component
+│   ├── App.css          # Global styles
+│   └── main.tsx         # Entry point
+├── index.html
+├── package.json
+├── vite.config.ts
+├── tailwind.config.ts
+└── tsconfig.json
+🎨 Customization
+Change Branding
+Update branding in:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+src/components/Navbar.tsx
+ (line 51)
+src/components/Footer.tsx
+ (lines 35, 76)
+index.html
+ (lines 6, 11)
+Modify Colors
+Edit tailwind.config.ts to change the color scheme.
 
-**Use GitHub Codespaces**
+Add/Remove Sections
+Components are modular - simply import/remove from 
+App.tsx
+.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+🚀 Deployment
+Vercel (Recommended)
+Push code to GitHub
+Go to Vercel
+Import your repository
+Deploy with one click
+Netlify
+Push code to GitHub
+Go to Netlify
+Click "New site from Git"
+Select your repository and deploy
+GitHub Pages
+npm run build
+# Deploy the 'dist' folder to GitHub Pages
+📄 License
+This project is part of a technology internship evaluation.
 
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-You can deploy this project using various hosting platforms such as:
-
-- Vercel
-- Netlify
-- GitHub Pages
-- Any other static site hosting service
+👨‍💻 Author
+SkillCraft Technology
